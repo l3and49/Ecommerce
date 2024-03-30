@@ -1,0 +1,227 @@
+body {
+    background-color: blanchedalmond;
+    scroll-behavior: smooth;
+}
+.container-geral-prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campoimg {
+    width: 130px; 
+    height: 130px; 
+    background-color: transparent;
+}
+.container-prod {
+    background-color: #fff;
+    width: 230px; height: 310px;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px 0px #9b9b9b;
+}
+.img-prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*/////////////////////////////////////////////*/
+
+/*
+.containerordenapor {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.detalhes {
+    cursor: pointer;
+    z-index: 3;
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px 0px #9b9b9b;
+}
+.detalhes h1 {
+    font-size: 12px;
+}
+.detalhes p {
+    width: 120px; height: 40px;
+    background-color: blue;
+} 
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+*/
+
+.main {
+    display: flex;
+    /* gap: 30px; */
+}
+
+.containerfiltro {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 0px #9b9b9b;
+    width: 200px;
+    height: auto;
+    margin: 0px 60px 0px 8%;
+    padding: 30px;
+}
+.containerfiltro a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #e58200;
+}
+.containerfiltro a:hover {
+    color: #ffb656;
+    transition: 0.3s;
+}
+.containerfiltro h4 {
+    font-size: 16px;
+    font-weight: bold;
+    height: auto;
+}
+.box {
+    margin-top: 30px;
+    row-gap: 15px;
+}
+.linebox {
+    background-color: #dfdfdf;
+    width: 140px; height: 1px;
+    margin: 30px auto;
+}
+
+/*/////////////////////////////////////////////*/
+
+#nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+#btncompra {
+    
+    background-color: #e58200;
+    width: 80px; height: 30px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+#btncompra:hover {
+    cursor: pointer;
+    background-color: #ff9307;
+}
+#preco {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font-size: 30px;
+}
+#qtdeprod {
+    margin: 5px 0px 0px 30px;
+    text-decoration: underline #ff9307 2px;
+}
+#qtdeprodesg {
+    margin: 5px 0px 0px 55px;
+    color: red;
+    text-decoration: underline red 2px;
+}
+/* 
+.container-prod {
+    padding: 5px;
+    height: 350px; width: 260px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 0px;
+    text-align: center;
+}
+*/
+
+.container-pq {
+    font-size: 13px;
+    margin-top: 52px;
+    display: flex;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: white;
+border-radius: 20px;
+border: 4.05px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9b9b9b;
+}
+
+
+.sobre-informacoes-container {
+    background-color: #dbdbdb;
+    height: 250px; width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    
+    color: #212121;
+    font-size: 13px;
+
+    text-align: center;
+    align-content: center;
+}
+.sobre-informacoes-container h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-inf-parceria { width: 250px; }
+.sobre-inf-parceria img { height: 40px; }
+.sobre-inf-formapag img { height: 30px; }
+.sobre-inf-formapag {
+    width: 400px;
+    flex-direction: space-between;
+}
+.linha-sobre-informacoes {
+    background-color: #9b9b9b;
+    height: 1px; width: 80%;
+    margin: 0px auto 0px auto;
+}
+#btn-voltopo {
+    height: 50px;
+    display: flexbox;
+    margin: -30px 0px 0px 95%;
+}
+
+/*/////////////////////////////////////////////*/
+

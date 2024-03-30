@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Ordaniza+</title>
+    <link rel="stylesheet" href="../css/style-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Staatliches#styles">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <script src="validadorsenha.js"></script>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="container">
+            <form action="cad_usuarios_back.php" method="post" id="form-id" enctype="multipart/form-data">
+            <div class="bemvinde">
+                <h2>Bem-vindo(a) !</h2>
+        
+                <p>Coloque suas inforções para efetuar o cadastro !</p>
+                <br>
+                <div class="line"></div>
+                <br>
+            </div>  
+            
+            <br><br>
+            <div class="input-group">
+                <input name ="nome" type="text" id="name" required class="input">
+                <label for="name" class="input-label">Nome</label>
+            </div>
+            <br>
+            <div class="input-group">
+                <input name ="email" type="text" id="name" required class="input">
+                <label for="name" class="input-label">Email</label>
+            </div>
+            <br>
+            <div class="input-group">
+                <input name ="senha" type="password" id="senha" required class="input"  onkeyup="event.preventDefault(); ValidarSenhaForca();">
+                <!--  -->
+                <label for="name" class="input-label">Senha</label>
+                <div class="contverf">
+                    <!-- <div id = "impSenha"></div> -->
+                    <div id = "VerificaTamanho"></div>
+                    <div id = "VerificaLetra"></div>
+                    <div id = "VerificaLetraMaiuscula"></div>
+                    <div id = "VerificaLetraEspecial"></div>
+                    <div id = "VerificaNumero"></div>
+                </div>
+            </div>
+            <br>
+            <div class="input-group">
+                <input name ="telefone" type="text" id="name" required class="input" >
+                <label for="name" class="input-label">Telefone</label>
+            </div>
+            <br>
+            <input type="submit" name="button" value="Vamos lá!" id="submitcad">
+            <br><br>
+            Já tem uma conta? 
+            <a href="../index.php">Voltar</a>
+            <br><br>
+            <script>
+            </script>     
+            
+            
+            </form>
+        </div>
+        <div class="imagem-site">
+            
+            <p>www.organizamais.com.br</p> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(leelawadee.ttf)
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Leelawadee UI;
+    scroll-behavior: smooth;
+}
+*::selection {
+    background:#ffc353;
+    color:#ffffff;
+} 
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: white;
+border-radius: 20px;
+border: 4.05px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9b9b9b;
+}
+
+/* ///////////////////////////////////////////// */
+
+iframe {
+    margin-bottom: -10px;
+}
+
+.textosd {
+    background-image: url(../img/bannersd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.textosd h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+.textosd h4 {
+    margin-top: -50px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.containersobre img { height: 170px; }
+.sobretxt { margin: auto 0px; }
+.sobretxtr {
+    margin: auto 0px;
+    text-align: right;
+}
+.sobreline {
+    margin: auto 0px;
+    background-color: #212121;
+    width: 200px;
+    height: 1px;
+}
+.containersobre h4 {
+    font-weight: normal;
+    font-size: 50px;
+}
+.containersobre p {
+    font-size: 20px;
+}
+.sobreleft {
+    display: flex;
+    gap: 20px;
+    padding: 5px 20px 5px 140px;
+    width: 100%;
+}
+.sobreright {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 5px 140px 5px 20px;
+    width: 100%;
+}
+
+/* ///////////////////////////////////////////// */
+
+.containerdevs {
+    background-image: linear-gradient(0deg, rgba(255,225,148,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
+    height: auto;
+    width: 100%;
+    padding: 40px 5px;
+}
+.titledev {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titledev h2 {
+    font-size: 30px;
+    text-decoration: underline 5px #ffd194;
+}
+
+.perfis {
+    padding: 5px 300px;
+}
+.perfil {
+    display: flex;
+    margin-top: 5px;
+}
+.perfil h4 { font-size: 30px; font-weight: normal;}
+.perfil p { font-size: 20px; }
+.perfilinf {
+    margin: auto 30px;
+}
+.perfil img {
+    height: 150px;
+    border-radius: 80px;
+}
+
+
+
+.sobreaempresa {
+    width: 100%; height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobreaempresatxt {
+    text-align: center;
+}
+.sobreaempresatxt p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* ///////////////////////////////////////////// */
+
+  #btn-voltopo {
+    height: 50px;
+    display: flexbox;
+    margin: -30px 0px 0px 95%;
+    
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+.sobre-informacoes-container {
+    background-color: #dbdbdb;
+    height: 200px; width: 100%;
+    padding: 10px;
+    
+    color: #212121;
+    font-size: 13px;
+
+    text-align: center;
+    align-content: center;
+}
+.sobre-informacoes-container h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+/* .sobre-informacoes-container img { } */
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-inf-parceria { width: 250px; }
+.sobre-inf-parceria img { height: 40px; }
+.sobre-inf-formapag img { height: 30px; }
+.sobre-inf-formapag {
+    width: 400px;
+    flex-direction: space-between;
+}
+.linha-sobre-informacoes {
+    background-color: #9b9b9b;
+    height: 1px; width: 80%;
+    margin: 0px auto 0px auto;
+}

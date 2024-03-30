@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table { 
+    padding: 50px 50px;
+    /* width: 1200px;  */
+    width: 700px;
+    display: grid; 
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #a7a7a7;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.table h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.table h3 {
+    font-family: 'Inter', sans-serif;
+    margin: 10px 0px;
+    font-weight: initial;
+
+}
+.rows { 
+    display: flex; 
+    background-color: #fff5e5; 
+    border-radius: 5px;
+    margin: 4px 0px;
+    align-items: center;
+    width: 533px;
+
+    
+}
+.produtolista {
+    background-color: #fff5e5; 
+    border-radius: 5px;
+    width: 1095px;
+    margin: 10px 0px;
+}
+/* #cellDescricao2 {
+    width: 490px;
+} */
+.cell {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-bottom: .5%;
+    /* background-color: rgb(177, 255, 168); */
+    font-size: 10pt;
+    /* border: 1px solid red; */
+}
+.cellHeader {text-align: center !important;}
+.cellImagem {width: 110px;}
+.cellNome { width: 250px; font-weight: bold;} 
+.cellCodigo {width:100px; }
+.cellDescricao {width:440px; }
+.cellPrecoHeader {width:100px;}
+.cellPreco {width:90px; justify-content: right;}
+.cellAcoes {width:25px;}
+
+.cellHeader {
+    background-color: #ffbc48;
+    border: 1px solid #ffffff;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.buttons a {
+    text-align: center;
+    align-items: center;
+
+    padding: 10px 232px;
+    border-radius: 5px;
+    background: #e2e2e2;
+    
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+.buttons a:hover {
+    transition: 0.5s;
+    background-color: #44c08a;
+}
+.cancela a {
+    color: #ffbc48;
+    font-weight: bold;
+}
+
+/* .button {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #202231;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: width .5s,
+    border-radius .5s;
+}
+button * {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s;
+}
+.icon {
+    opacity: 0;
+}
+.button:focus {
+    transform: scale(10);
+    width: 30px;
+    background-color: #44c08a;
+    border-radius: 50%;
+}
+.button:focus .text {
+    opacity: 0;
+}
+.button:focus .icon {
+    opacity: 1;
+    transition-delay: .5s;
+} */

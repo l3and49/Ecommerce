@@ -1,0 +1,98 @@
+/* id para areas de php
+   class para outros */
+html {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #417273, #43543D);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: white;
+border-radius: 20px;
+border: 4.05px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9b9b9b;
+}
+
+strong, fieldset, input, span, label, #input-estoque, option {
+    background-color: aliceblue;
+}
+legend {
+    font-size: 20px;
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    color: aliceblue;
+
+    border-radius: 0px 0px 50px 50px;
+}
+fieldset { border-color: black ; box-shadow: 0px 0px 10px 0px black;}
+.form-produto fieldset { height: 550px; width: 330px; }
+.form-estoque fieldset { height: 550px; width: 330px; }
+textarea {
+    background-color: aliceblue;
+    margin: 0px 0px -3px 0px;
+}
+.container-form-cadastro {
+    font-family: Calibri Light;
+    color: #595E63;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"], input[type="number"], input[type="date"] {
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: gray;
+}
+.form-produto {
+    width: 380px;
+    float: left;
+}
+.form-estoque {
+    width: 300px;
+    float: left;
+}
+#block1 { float: left; }
+.container-form-cadastro h1 {
+    font-family: Geneva, sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    margin: 0px 15% 50px 24%;
+    background-color: red;
+}
+
+
+
+
+input[type="text"]:focus
+input[type="radio"] {}
+

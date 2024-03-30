@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(leelawadee.ttf)
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Leelawadee;
+}
+iframe {
+    height: 270px;
+    margin-bottom: -160px;
+}
+
+
+.barra-cabecalho {
+    background-image: linear-gradient(90deg, #ff9100, #ffb739, #ff9100);
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    height: 25px;
+}
+.barra-cabecalho a {
+    color: white; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px; 
+}
+.barra-cabecalho a:hover {
+    text-decoration: underline;
+    /* border: 2px white solid;
+    border-radius: 3px;
+    height: 22px; width: auto; */
+}
+
+.search {
+    display: flex;
+    border: 2px solid #212121;
+    border-radius: 50px;
+}
+.search input {
+    /* border: 0px solid #212121; */
+    border-radius: 50px 0px 0px 50px;
+    width: 300px; height: 40px;
+    padding: 10px;
+}
+.search input:focus{ outline: none; }
+
+.search input[type="search"]:focus {
+    border: none;
+    outline: none;
+}
+.search a {
+    /* border: 0px solid #212121; */
+    border-radius: 0px 50px 50px 0px;
+    width: 40px; height: 40px;
+    padding: 10px;
+}
+.icon {
+    background-color: #ffe0a9;
+    color: black;
+}
+.icon:hover {
+    background-color: #ffcf7d;
+    cursor: pointer;
+}
+
+.inicio-container {
+    background-color: #fff;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: space-between;
+}
+.inicio-container img {
+    height: 25px;
+}
+.logotipo:not(a){
+    height: 40px;
+}
+.espace-inicio {
+    background-color: transparent;
+    height: 30px;
+    width: 40%;
+    max-width: 900px;
+}
+
+.codigoprod{
+    background-image: linear-gradient(90deg, #ff9100, #ffb739, #ff9100); 
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    height: 25px;
+}

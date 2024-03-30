@@ -1,0 +1,190 @@
+.table { 
+    padding: 50px 50px;
+    width: 1200px; 
+    display: grid; 
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #a7a7a7 ;
+}
+.row { 
+    display: flex; 
+    
+    align-items: center;
+    
+}
+.produtolista {
+    background-color: #fff5e5; 
+    border-radius: 5px;
+    width: 1095px;
+    margin: 10px 0px;
+}
+/* #cellDescricao2 {
+    width: 490px;
+} */
+.cell {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-bottom: .5%;
+    /* background-color: rgb(177, 255, 168); */
+    font-size: 10pt;
+    /* border: 1px solid red; */
+}
+.cellHeader {text-align: center !important;}
+.cellImagem {width: 110px;}
+.cellNome { width: 250px; font-weight: bold;} 
+.cellCodigo {width:100px; }
+.cellDescricao {width:440px; }
+.cellPrecoHeader {width:100px;}
+.cellPreco {width:90px; justify-content: right;}
+.cellAcoes {width:25px;}
+
+.clnome {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+.cellAcoes a {
+    color: #ffad20;
+    
+}
+.cellImagem img {
+    margin: 3px 3px -3px 3px;
+    border-radius: 3px;
+}
+.gg-trash {
+    margin-left: -10px;
+}
+
+iframe {
+    margin-bottom: -170px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+
+.subtot {
+    
+}
+.cellHeader {
+    background-color: #ffbc48;
+    border: 1px solid #ffffff;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.lineprod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #212121;
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.containertable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    height: auto;
+    background-color: #f1f1f1;
+}
+
+.campoimg {
+    height: 100px;
+}
+
+#btnatt {
+    cursor: pointer;
+    background-color: #a3a3a3;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btncompra a{
+    background-color: #ffbc48;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #c0c0c0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 4.05px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #9b9b9b;
+  }
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+#btn-voltopo {
+    height: 50px;
+    display: flexbox;
+    margin: -30px 0px 0px 95%;
+    
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+.sobre-informacoes-container {
+    background-color: #dbdbdb;
+    height: 200px; width: 100%;
+    padding: 10px;
+    
+    color: #212121;
+    font-size: 13px;
+
+    text-align: center;
+    align-content: center;
+}
+.sobre-informacoes-container h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+/* .sobre-informacoes-container img { } */
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-inf-parceria { width: 250px; }
+.sobre-inf-parceria img { height: 40px; }
+.sobre-inf-formapag img { height: 30px; }
+.sobre-inf-formapag {
+    width: 400px;
+    flex-direction: space-between;
+}
+.linha-sobre-informacoes {
+    background-color: #9b9b9b;
+    height: 1px; width: 80%;
+    margin: 0px auto 0px auto;
+}

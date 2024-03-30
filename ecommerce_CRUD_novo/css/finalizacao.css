@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(./css/leelawadee.ttf)
+}
+html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Leelawadee;
+    scroll-behavior: smooth;
+    background-color: #efefef;
+}
+
+.corpo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #a1a1a1;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    line-height: 45px;
+}
+.container img {
+    height: 100px;
+}
+.container h1 {
+    margin: -12 0px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form action="login_usuarios_back.php" method="post" enctype="multipart/form-data">
+              
+            <h2>Bem-vindo(a) !</h2>
+            
+            
+            <p class="frase">Faça o seu login aqui!</p>
+            <br>
+            <div class="line"></div>
+            <br>
+            
+            <br>
+            <div class="input-group">
+                <input name ="email" type="text" id="name" required class="input">
+                <label for="name" class="input-label">Email</label>
+            </div>
+            <br>
+            <div class="input-group" id="input">
+                <input name ="senha" type="password" id="name" required class="input">
+                <label for="name" class="input-label">Senha</label>
+            </div>
+
+            <!-- <div class="input-group">
+                <input name ="senha" type="password" id="name" required class="input">
+                <img src="http://i.stack.imgur.com/H9Sb2.png" alt="">
+                <label for="name" class="input-label">Senha</label>
+            </div> -->
+            <br>
+            
+            <input type="submit" name="button" value="Vamos lá!" id="submitcad">
+            
+            <div class="cadastro">
+                <p>Não tem uma conta? &nbsp;</p>
+                <a href="../login/cad_usuarios_front.html">Cadastrar-se</a><br><br>
+                
+            </div>
+            <div class="voltahome"><a href="../index.php"><img src="../img/seta.png">Voltar</a></div>
+            
+            <br><br>
+            
+            
+            
+            </form>
+        </div>
+        <div class="imagem-site">
+            <p>Organizar-se é a melhor maneira de começar bem!</p>    
+             
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(leelawadee.ttf)
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Leelawadee;
+    scroll-behavior: smooth;
+}
+
+
+  
+#input img {
+    cursor: pointer;
+}
+
+.main img {
+    height: 20px;
+}
+.voltahome a{
+    color: #f8c16d;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    margin: 75px -10px -100px -80px;
+}
+.voltahome:hover a {
+    color: #eba336;
+}
+
+.contverf {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: -5;
+}
+/* .slides {
+    position: relative;
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+}
+.slides::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    background-color: rgb(0 0 0 / 50%);
+}
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: cycle 12s;
+    infinite;
+}
+.slide-2 {
+    animation-delay: 4s;
+}
+.slide-3 {
+    animation-delay: 8s;
+}
+.slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@keyframes cycle {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    20% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    30% {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+    100% { opacity: 0; }
+} */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #dfab5e, #d15bc1);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 4px #757575);
+    
+}
+#submitcad {
+    width: 250px; height: 40px;
+    background-color: #f3b962;
+    border: none;
+    border-radius: 4px;
+    font-family: Leelawadee;
+    color: #fffff0;
+}
+#submitcad:hover {
+    border-style: solid;
+    
+    cursor: pointer;
+    animation: animate 1s ease-in-out infinite;
+    border-width: 0px;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.02);
+        background-color: #e6a748;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.container {
+    
+    background-color: #fff;    
+    width: 450px; height: 550px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: Leelawadee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro {
+    display: flex;
+    margin-top: 50px;
+}
+
+.frase {
+    font-size: 15px;
+    margin-top: 3px;
+}
+.imagem-site p {
+    margin: 10px;
+    font-size: 15px;
+    color:#fff;
+    font-weight: bold;
+    background-color: rgb(0 0 0 / 35%);
+    border-radius: 5px;
+}
+
+.imagem-site {
+    font-family: Leelawadee;
+    color: white;
+
+    background-image: url("../img/potenhos.png");
+    background-repeat: no-repeat, repeat;
+    background-position: 0px 0px;
+
+    width: 350px; height: 550px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    
+    font-size: 50px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.line {
+    width: 250px; height: 2px;
+    background-color: #f3b962;
+    
+}
+
+
+
+
+
+.input-group {
+    position: relative;
+}
+.input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #838A91;
+    background-color: transparent;
+    outline: 2px solid #838A91;
+}
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #838A91;
+}
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform:
+    translate(10px, -14px) scale(.8);
+    color: #5C6166;
+    padding-inline: 5px;
+    background-color: #fffff0;
+}
+.input:is(:focus,:valid) {
+    outline-color: #5C6166;
+}

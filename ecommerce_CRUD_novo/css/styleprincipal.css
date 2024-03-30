@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(leelawadee.ttf)
+}
+* {
+border: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Leelawadee;
+}
+*::selection {
+    background:#ffbb3b;
+    color:#ffffff;
+} 
+
+/* ///////////////////////////////////////////// */
+
+/* custom scrollbar */
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: white;
+border-radius: 20px;
+border: 4.05px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9b9b9b;
+}
+
+/* ///////////////////////////////////////////// */

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    margin: 0;
+    background-color: #ffe8be;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: white;
+border-radius: 20px;
+border: 4.05px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #9b9b9b;
+}
+
+iframe {
+    margin-bottom: -155px;
+}
+.table { 
+    width: 1553px;
+    display: grid; 
+    margin: 0px;
+    border: 10px solid #ffb11f;
+}
+.paosirio {
+    background-color: red;
+}
+.btn-novo a {
+    background-color: #ffb11f;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-novo {
+    
+}
+.row { display:block; background-color: #ffd78c;}
+.cell {
+display:inline-block;
+padding: 5px 5px;
+margin-bottom: .5%;
+background-color: #fff;
+font-size: 10pt;
+}
+.cellHeader {text-align: center !important;}
+.cellCodigo {width:90px;}
+.cellNome {width:260px;}
+.cellDescricao {width:360px;}
+.cellPrecoproduto {width: 45px;}
+.cellExcluido {width: 50px;}
+.cellDataexclusao {width:100px;}
+.cellCodigovisual {width: 95px;}
+.cellCusto {width:50px;}
+.cellMargemlucro {width:115px;}
+.cellicms {width:50px;}
+.cellCampoimagem {width:105px;}
+.cellCodtamanho {width:80px;}
+.cellCodcor {width:65px;}
+.cellQtdeproduto {width:100px;}
+.cellMarcaproduto {width: 100px;}
+.cellAcoes {width:100px;}
+
+.preco-prod {
+    font-size: 30px;
+}
